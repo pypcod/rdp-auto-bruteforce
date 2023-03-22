@@ -1,5 +1,5 @@
 # rdp scanner checker bruteforce script
 
-sudo apt-get nmap
+sudo apt-get install nmap
 
-sudo apt-get hydra
+sudo apt-get install hydra
